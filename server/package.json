@@ -1,0 +1,19 @@
+{
+  "name": "micro-agreement-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Digital Trust and Micro-Agreement Platform for Indian Small Businesses",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node seed.js",
+    "test": "node test-model.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.2"
+  }
+}
